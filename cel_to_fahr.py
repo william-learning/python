@@ -1,9 +1,11 @@
 def cel_to_fahr(C):
     if C < -273.15:
-        print("That temperature doesn't make sense!")
+        return "That temperature doesn't make sense!"
     else:
         F = C * 9 / 5 + 32
-        print(str(C) + " degrees C is " + str(F) + " Fahrenheit")
+        return F
+   
+temperatures = [10,-20,-289,100]
         
-    
-cel_to_fahr(-273.16)
+for c in temperatures:   
+    print(cel_to_fahr(c))
