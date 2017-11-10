@@ -2,6 +2,12 @@
 
 This repository contains the source code for learning Python 3 as well as testing Python scripts and APIs in a sandbox environment. Actual applications can be found in the [python-projects](https://github.com/williamsoftwarecode/python-projects) repository. 
 
+Packages and modules used:
+- Pandas
+- Numpy
+- Geopy
+- Jupyter Notebook
+
 ## Content
 
 The content of this repository is the output from [The Python Mega Course](https://www.udemy.com/the-python-mega-course) by Ardit Sulce on Udemy. 
