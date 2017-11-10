@@ -6,3 +6,9 @@ git remote add origin https://github.com/williamsoftwarecode/python.git
 git remote set-url https://github.com/williamsoftwarecode/python.git
 git pull origin master --allow-unrelated-histories
 git push origin master
+
+
+
+# pandas installation
+sudo pip3 install --upgrade pip
+sudo pip3 install pandas
